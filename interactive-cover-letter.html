@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumant Duggal | Bending Spoons Digital Cover Letter</title>
+    <style>
+        :root {
+            --bg: #090606;
+            --panel: #160e0e;
+            --ink: #fff4ed;
+            --muted: #c9b8b0;
+            --accent: #ff4500;
+            --border: rgba(255,255,255,.09);
+        }
+
+        * { box-sizing: border-box; }
+
+        html, body { margin: 0; padding: 0; }
+
+        body {
+            font-family: Georgia, "Times New Roman", serif;
+            background:
+                radial-gradient(circle at 35% 0%, rgba(192, 38, 20, .48), transparent 38%),
+                linear-gradient(180deg, #280c0a 0%, var(--bg) 58%);
+            color: var(--ink);
+        }
+
+        .page {
+            width: 210mm;
+            height: 297mm;
+            margin: 0 auto;
+            padding: 14mm 17mm;
+            overflow: hidden;
+        }
+
+        .frame {
+            border: 1px solid var(--border);
+            border-radius: 26px;
+            background: linear-gradient(150deg, rgba(255,255,255,.035), rgba(255,255,255,.012));
+            padding: 13mm 15mm 11mm;
+            box-shadow: 0 22px 60px rgba(0,0,0,.3);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .eyebrow {
+            margin: 0 0 7px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            letter-spacing: .34em;
+            text-transform: uppercase;
+            color: var(--accent);
+        }
+
+        h1 {
+            max-width: 150mm;
+            margin: 0 0 11px;
+            font-size: 34px;
+            line-height: 1.05;
+            font-weight: 500;
+        }
+
+        .intro {
+            max-width: 154mm;
+            margin: 0 0 13px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            line-height: 1.55;
+            color: var(--muted);
+        }
+
+        .actions {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .cta {
+            display: inline-block;
+            padding: 12px 17px;
+            border-radius: 999px;
+            background: var(--accent);
+            color: #150806;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: .08em;
+            text-transform: uppercase;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .preview {
+            flex: none;
+            height: 98mm;
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            overflow: hidden;
+            background: #0b0606;
+        }
+
+        .preview img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            gap: 16px;
+            margin-top: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #9f8f88;
+            font-size: 9px;
+            letter-spacing: .03em;
+        }
+
+        .footer a { color: #d8c8c0; text-decoration: none; }
+
+        @page { size: A4; margin: 0; }
+        @media print {
+            html, body { width: 210mm; height: 297mm; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+        }
+    </style>
+</head>
+<body>
+    <main class="page">
+        <section class="frame">
+            <p class="eyebrow">Interactive application</p>
+            <h1>A digital cover letter for the Bending Spoons Graduate Product Manager application.</h1>
+            <p class="intro">
+                Across five-plus years in FMCG, I kept looking past my remit for the problem that actually mattered and building something to solve it - from a churn model and a self-organising hitlist to DraftVision, an industry-first operations platform. Investigate, build, execute, iterate: before I had those words for it, that was already the work I gravitated to.
+            </p>
+            <p class="intro">
+                I do not want to diagnose a problem and hand it off. I want to own a product, operate it for the long term, and keep improving it with the business consequences sitting on my own desk. That is exactly why Bending Spoons pulls at me.
+            </p>
+            <div class="actions">
+                <a class="cta" href="./dist/index.html">View interactive application</a>
+            </div>
+            <div class="preview">
+                <img src="./bending-spoons-site-preview.png" alt="Preview of the Bending Spoons interactive application">
+            </div>
+            <footer class="footer">
+                <span>Sumant Duggal · IESE MBA '27 · Barcelona</span>
+                <a href="mailto:sumant.duggal@iese.net">sumant.duggal@iese.net</a>
+            </footer>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.git/
+.openai/
+.vercel/
+tmp/
+output/
+interactive-cover-letter.html
+bending-spoons-site-preview.png
+prepare.py
+dist/interactive-cover-letter.html
+dist/Nestle Operations Application.pdf
+dist/nestle-operations-hero.png
+dist/nestle-product-cluster.png
+dist/site-preview.png
+dist/bent-spoon.svg
+dist/bent-spoon-generated.png
+dist/bent-spoon-single-curve.png
+dist/bent-spoon-deep-curve.png
+dist/bent-spoon-realistic.png
+dist/bent-spoon-realistic-45.png
+dist/bent-spoon-realistic-75.png
